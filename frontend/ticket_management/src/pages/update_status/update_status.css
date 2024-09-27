@@ -1,0 +1,83 @@
+.menu-button {
+    position: absolute; 
+    font-size: 20px;
+    width: 64px;
+    height: 64px;
+}
+
+.logo {
+  margin: 0 24%;
+  width: 50%;
+  height: auto; /* หรือใช้ 100% ถ้าต้องการให้ขนาดอัตโนมัติตาม aspect ratio */
+}
+
+.custom-menu .ant-menu-item:hover {
+  background-color: #1890ff; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+  color: #fff; /* เปลี่ยนสีของตัวอักษรเมื่อ hover */
+}
+
+.custom-menu .ant-menu-item-active {
+  background-color: #40a9ff; /* สีเมื่อเมนูถูกเลือก */
+  color: #fff;
+}
+
+.card-container {
+  display: flex;            /* ใช้ Flexbox เพื่อจัดเรียงการ์ด */
+  justify-content: space-between; /* จัดการ์ดให้ห่างกัน */
+  align-items: stretch;    /* ให้การ์ดมีความสูงเท่ากัน */
+              /* กำหนดระยะห่างระหว่างการ์ด */
+}
+
+
+.card {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; 
+  margin: 1% 2%;          /* ระยะห่างด้านข้าง */
+  
+  flex: 1;                /* ให้การ์ดแต่ละใบมีขนาดเท่ากัน */
+  min-width: 250px;       /* ความกว้างขั้นต่ำของการ์ด */
+     /* ความกว้างสูงสุดของการ์ด */
+  height: 110px;          /* ความสูงที่ต้องการ */
+  
+  background-color: #1890ff;
+  border-radius: 10px;
+  padding: 16px;          /* ระยะภายในการ์ด */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+
+.card1 {
+  background-color: #1890ff; /* สีน้ำเงิน */
+}
+
+.card2 {
+  background-color: #e8a22a; /* สีแดง */
+}
+
+.card3 {
+  background-color: #52c41a; /* สีเขียว */
+}
+
+.card4 {
+  background-color: #ff4d4f; /* สีเหลือง */
+}
+
+.card h3 {
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for paragraph elements */
+.card p {
+  font-size: 30px; /* Larger font size */
+  font-weight: bold; /* Make it bold */
+  margin: 0 20px; /* Remove default margin */
+  line-height: 1; /* Adjust line height to match h3 */
+}
+
+.table {
+  width: 80%;
+  margin: 1% 10%;
+}
+
+

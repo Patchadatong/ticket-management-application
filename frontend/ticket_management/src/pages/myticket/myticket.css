@@ -1,0 +1,33 @@
+h1 {
+    text-align: left;
+    margin-left: 5%; 
+}
+
+.custom-card {
+    width: 100%; 
+}
+
+
+.ticket-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+   
+}
+
+.status-pending {
+    background-color: #e6f7ff; 
+}
+
+.status-accepted {
+    background-color: #fff3e6; 
+}
+.status-resolved {
+    background-color: #e6ffed; 
+}
+.status-rejected {
+    background-color: #ffe6e6; 
+}
+
+

@@ -1,0 +1,26 @@
+.header {
+    padding: 0%;
+    color: #fff;
+    height: 64px;
+    line-height: 64px;
+    background-color: #f1f1f1;
+}
+
+
+.create-container {
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 5% 15%;
+    
+}
+
+
+
+
+
+
+
+
+
